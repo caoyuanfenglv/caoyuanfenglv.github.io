@@ -5,21 +5,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2015-10-18T23:29:16-00:00</lastmod>
+<lastmod>2015-10-19T00:23:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2015-10-18T23:29:16-00:00</lastmod>
+<lastmod>2015-10-19T00:23:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2015-10-18T23:29:16-00:00</lastmod>
+<lastmod>2015-10-19T00:23:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -35,6 +35,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <loc>/agreement.html</loc>
 <lastmod>2015-10-18T13:31:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>/it/setup_blog.html</loc>
+<lastmod>2015-10-18T00:20:00+08:00</lastmod>
+<changefreq>weekly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -61,7 +68,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/it/index.html</loc>
-<lastmod>2015-10-17T23:47:00+08:06</lastmod>
+<lastmod>2015-10-18T00:20:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -82,7 +89,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/tag/pelican.html</loc>
-<lastmod>2015-10-17T23:40:00+08:06</lastmod>
+<lastmod>2015-10-18T00:20:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -109,8 +116,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/tag/bu-shu-mo-ban-qing-song-shi-yong.html</loc>
+<lastmod>2015-10-18T00:20:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>/author/jiangtao-guo.html</loc>
-<lastmod>2015-10-17T23:47:00+08:06</lastmod>
+<lastmod>2015-10-18T00:20:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
