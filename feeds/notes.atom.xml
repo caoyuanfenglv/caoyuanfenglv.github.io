@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>caoyuanfenglv</title><link href="/" rel="alternate"></link><link href="/feeds/notes.atom.xml" rel="self"></link><id>/</id><updated>2015-10-17T23:40:00+08:00</updated><entry><title>基础概念</title><link href="/notes/%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B51.html" rel="alternate"></link><updated>2015-10-17T23:40:00+08:00</updated><author><name>Jiangtao Guo</name></author><id>tag:,2015-10-17:notes/基本概念1.html</id><summary type="html">&lt;h3 id=""&gt;基础知识总结&lt;/h3&gt;
+&lt;p&gt;总结基础概念等知识。&lt;/p&gt;
+&lt;h4 id="_1"&gt;光放大过程&lt;/h4&gt;
+&lt;p&gt;当一定频率的泵浦光入射到物质中时，物质中的原子或者分子可以在泵浦光的激励作用下，会导致物质发生粒子数反转，出射光频率发生显著变化，会实现光放大。&lt;/p&gt;
+&lt;h4 id="_1_2"&gt;激光理论中的三种基本过程&lt;/h4&gt;
+&lt;p&gt;自发辐射
+受激吸收
+受激发射&lt;/p&gt;
+&lt;h4 id="_1_2_3"&gt;激光中的玻尔兹曼分布&lt;/h4&gt;
+&lt;p&gt;激光中的玻尔兹曼分布(Boltzman distribution),在激光器中要处理的是大量原子组成的原子系统，根据统计规律，由大量原子所组成的原子系统在热平衡状态下，其中的原子将按一定的统计规律分布于各个能级上。这种统计分布称为玻尔兹曼分布，如下：
+&lt;/p&gt;
+&lt;div class="math"&gt;$$N_i = g_i e^{-\frac{E_i}{kT}}$$&lt;/div&gt;
+&lt;h4 id="_1_2_3_4"&gt;粒子数反转&lt;/h4&gt;
+&lt;p&gt;粒子数反转（population inversion),一般情况下，物质中的原子或分子处于热平衡状态，其中的原子、分子系统是按照玻尔兹曼分布进行能级分布。为了满足光放大条件，需要
+&lt;/p&gt;
+&lt;div class="math"&gt;$$N_2&amp;gt;N_1 ,E_2&amp;gt;E_1$$&lt;/div&gt;
+&lt;p&gt;
+也即是上能级粒子数大于下能级的粒子数。称为粒子数反转（population inversion）。&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</summary><category term="IT"></category><category term="概念"></category></entry></feed>

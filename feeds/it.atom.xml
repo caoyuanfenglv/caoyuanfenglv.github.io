@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>caoyuanfenglv</title><link href="/" rel="alternate"></link><link href="/feeds/it.atom.xml" rel="self"></link><id>/</id><updated>2015-10-17T23:47:00+08:00</updated><entry><title>Mark学习</title><link href="/it/study_Markdown.html" rel="alternate"></link><updated>2015-10-17T23:47:00+08:00</updated><author><name>Jiangtao Guo</name></author><id>tag:,2015-10-17:it/study_Markdown.html</id><summary type="html">&lt;h1 id="markdown"&gt;Markdown模版&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;由haroopad编辑器完成，Ubuntu 14.04&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr/&gt;
+&lt;h3 id="markdown_1"&gt;Markdown是什么？&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 是一种非常简便的写作标记语言, 目标是实现&lt;strong&gt;易读易写&lt;/strong&gt; &lt;/p&gt;
+&lt;h3 id=""&gt;字体样式&lt;/h3&gt;
+&lt;p&gt;这里是&lt;strong&gt;加粗&lt;/strong&gt;&lt;code&gt;(**加粗**)&lt;/code&gt;
+这里是&lt;em&gt;斜体&lt;/em&gt; (&lt;code&gt;*斜体*&lt;/code&gt;)
+这里是行内&lt;code&gt;code&lt;/code&gt; （&lt;code&gt;`code`&lt;/code&gt;）&lt;/p&gt;
+&lt;h3 id="_1"&gt;列表&lt;/h3&gt;
+&lt;p&gt;列表分为无序列表和有序列表
+-  列表&lt;code&gt;code&lt;/code&gt;
+-  code blocks
+-  Lists&lt;/p&gt;
+&lt;p&gt;上面的无序列表由下面生成， 注意 &lt;code&gt;-&lt;/code&gt;后面的一个空格
+    -  列表 &lt;code&gt;code&lt;/code&gt;
+    -  code blocks
+    -  Lists&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;列表1&lt;/li&gt;
+&lt;li&gt;列表&lt;/li&gt;
+&lt;li&gt;列表&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;同样
+    1. 列表1
+    2. 列表
+    3. 列表&lt;/p&gt;
+&lt;h3 id="_1_2"&gt;这里我们看看超链接&lt;/h3&gt;
+&lt;p&gt;这里是超链接，&lt;a href="http://www.baidu.com"&gt;hyperlink&lt;/a&gt;; &lt;/p&gt;
+&lt;p&gt;由下面的生成&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;[hyperlink](http://www.baidu.com)
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="_1_2_3"&gt;这里是引用&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里是引用内容，换行呢
+ O(∩_∩)O哈哈~
+还是非常不错的。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;同样
+    &amp;gt;  这里是引用内容，换行呢
+    &amp;gt;  O(∩_∩)O哈哈~
+    还是非常不错的。&lt;/p&gt;
+&lt;h3 id="_1_2_3_4"&gt;图片链接&lt;/h3&gt;
+&lt;p&gt;这里是图片，盗用baidu首页的图片
+&lt;img alt="icon" src="https://www.baidu.com/img/bd_logo1.png"/&gt;&lt;/p&gt;
+&lt;p&gt;同样&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;![icon](https://www.baidu.com/img/bd_logo1.png)
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id="_1_2_3_4_5"&gt;代码块&lt;/h3&gt;
+&lt;p&gt;这里是代码块&lt;/p&gt;
+&lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="cp"&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
+&lt;span class="kt"&gt;int&lt;/span&gt; &lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="n"&gt;printf&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Hello markdown"&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;代码块就是一次&lt;code&gt;tab&lt;/code&gt;键，上下各空一行。&lt;/p&gt;
+&lt;h3 id="_1_2_3_4_5_6"&gt;参考&lt;/h3&gt;
+&lt;p&gt;[1]: &lt;a href="http://www.markdown.cn/#links"&gt;http://www.markdown.cn/#links&lt;/a&gt;&lt;/p&gt;</summary><category term="Markdown"></category><category term="basic"></category><category term="IT"></category></entry><entry><title>Hello</title><link href="/it/hello.html" rel="alternate"></link><updated>2015-10-17T23:40:00+08:00</updated><author><name>Jiangtao Guo</name></author><id>tag:,2015-10-17:it/hello.html</id><summary type="html">&lt;h3 id="hello-world"&gt;Hello world&lt;/h3&gt;
+&lt;p&gt;hello world!&lt;/p&gt;
+&lt;h3 id=""&gt;说明&lt;/h3&gt;
+&lt;p&gt;这篇知识测试文件用。后面等博客稳定后，会删除。&lt;/p&gt;</summary><category term="Pelican"></category><category term="Markdown"></category></entry></feed>
